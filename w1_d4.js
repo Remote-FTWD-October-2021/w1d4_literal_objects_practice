@@ -54,7 +54,7 @@ for(let key in myself){
   // console.log(myself[key]) //Para conseguir todos los values
 }
 
-console.log(Object.keys(myself).length)
+// console.log(Object.keys(myself).length)
 
 // console.log(counter)
 
@@ -281,4 +281,45 @@ const schoolSystem = {
 // const lastName = schoolSystem.schools[2].classRooms[0].teacher.lastName;
 
 // console.log(`${name} ${lastName}`)
+
+
+// Function declaration
+// function sumNumbers(first, second){
+//   return first + second
+// }
+
+
+// //Function expression
+// const sumNumbers = function(first, second){
+//   return first + second
+// }
+
+// // Arrow function
+// const sumNumbers = (first, second)=>{
+//   return first + second
+// }
+
+
+//HOISTING
+
+//FIRST CLASS FUNCTIONS
+
+const someFunction = function(callback){
+  return callback()
+}
+
+const sumNumbers = function(first, second){
+  return first + second
+}
+
+// console.log(someFunction(sumNumbers))
+
+
+
+
+const exampleFunction = function(){
+  return 'Jaime'
+}
+
+console.log(exampleFunction)
 
